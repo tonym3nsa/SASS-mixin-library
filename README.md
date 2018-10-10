@@ -1,2 +1,2 @@
-# sass-mixin-library
+# SASS Mixin Library
 A SASS Mixin library
