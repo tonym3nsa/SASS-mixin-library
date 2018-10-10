@@ -2,6 +2,20 @@
 A SASS Mixin library
 > :grimacing: still finding time to updating this README.md
 
+To apply a mixin to an element in your SASS file:
+
+```
+selector {
+    @include mixin_name (comma separated arguments)
+}
+```
+For example,
+```
+.sample-selector {
+    @include two-color-vertical-gradient(#000000, #111111);
+}
+```
+
 ## Configuration fields
 | Mixin name  | Description | Arguements |
 | :----------- | :------------- | :--------------- |
